@@ -45,7 +45,7 @@ const MouseTrail = () => {
                     circlesRef.current.push(newCircle);
                 }
             }
-        }, 5);
+        }, 10);
 
         window.addEventListener('mousemove', handleMouseMove);
 
@@ -104,8 +104,8 @@ const MouseTrail = () => {
                 // Calculate the next position based on the next circle in the array or the first one
                 const nextIndex = index + 1 === circlesRef.current.length ? 0 : index + 1;
                 const nextCircle = circlesRef.current[nextIndex];
-                x += (nextCircle.x - x) * 0.4;
-                y += (nextCircle.y - y) * 0.4;
+                x += (nextCircle.x - x) * 0.3;
+                y += (nextCircle.y - y) * 0.3;
             });
 
             requestAnimationFrame(animateCircles);

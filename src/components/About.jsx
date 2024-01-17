@@ -56,7 +56,7 @@ const About = () => {
 
         <motion.div
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-12 text-white text-[37px] max-w-6xl leading-[60px] font-normal split-word'
+          className='mt-12 text-white text-[28px] max-w-6xl leading-[60px] font-normal split-word'
           onMouseEnter={() => {
             clearTimeout(timeoutId);
             setCursorVariant("large");
@@ -71,11 +71,9 @@ const About = () => {
         >
           <p
           >
-            "Hi, I'm Raj Palival, based in New Jersey, USA. I am an upcoming Graduate in MS. Software Engineering from Stevens Institute of Technology
-            (May 2024). I craft code with flair and a dash of JavaScript magic. Off-screen, I'm
-            either tinkering with new tech or deciphering Elon Musk's posts. I'm a
-            work in progress, just like my code - always evolving and iterating. 
-            My goal? Passionate to simplify technology and empower users, also aiming to shout 'King of the world' from atop the Empire State Building."
+            "Hi, I'm Raj Palival, a graduate student based in New Jersey pursuing MS in Software Engineering at Stevens Institute of Technology, with an expected graduation in May 2024. Previously, I worked as a software developer at HealthEdge, focusing on creating business rules for guiding care.
+            Driven by a fervor for continuous learning, I am dedicated to exploring new software stacks. Beyond academia and the professional realm, I am an enthusiast of chess, constantly adapting my strategy to overcome new challenges.
+            My overarching goal is to simplify technology for everyday users, facilitating seamless integration and empowering individuals. With a commitment to making technology accessible, I aim to contribute to a future where adapting to new tech is effortless."
           </p>
         </motion.div>
       </div>

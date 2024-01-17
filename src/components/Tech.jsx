@@ -15,7 +15,7 @@ const Tech = () => {
     const engine = Matter.Engine.create({
       gravity: {
         x: 0,
-        y: 0.5,
+        y: 0.2,
         scale: 0.001,
       },
       // Increase the number of position iterations and velocity iterations
@@ -155,7 +155,7 @@ const Tech = () => {
     // Add more balls as needed
     // Create box boundaries
     const wallOptions = { isStatic: true, restitution: 0.1 }; // Decrease the restitution
-    const wallThickness = 300; // Increase the size
+    const wallThickness = 500; // Increase the size
     
     const ground = Matter.Bodies.rectangle(1300 / 2, 600 + wallThickness / 2, 1300 + wallThickness * 2, wallThickness, wallOptions);
     const topWall = Matter.Bodies.rectangle(1300 / 2, -wallThickness / 2, 1300 + wallThickness * 2, wallThickness, wallOptions);
@@ -186,7 +186,7 @@ const Tech = () => {
       const bodies = Matter.Query.point(Matter.Composite.allBodies(engine.world), mouse.position);
       if (bodies.length > 0) {
         const angle = Math.random() * 2 * Math.PI; // Random direction
-        const forceMagnitude = 0.5 * bodies[0].mass; // Adjust as needed
+        const forceMagnitude = 0.3 * bodies[0].mass; // Adjust as needed
         Matter.Body.applyForce(bodies[0], bodies[0].position, {
           x: forceMagnitude * Math.cos(angle),
           y: forceMagnitude * Math.sin(angle),

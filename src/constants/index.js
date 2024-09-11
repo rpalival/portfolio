@@ -10,16 +10,15 @@ import Github from '../assets/github-sign.png';
 
 const experiences = [
   {
-    title: "Fico Blaze Advisor Developer",
-    company_name: "Altruista Health, Inc. (now part of HealthEdge Software, Inc.)",
+    title: "Software Developer 1",
+    company_name: "HealthEdge Software, Inc.)",
     icon: healthedge,
     iconBg: "#E6DEDD",
     date: " May 2021 - June 2022",
     points: [
-      'GuidingCare Customization: Tailored platform features for U.S. healthcare clients, boosting client satisfaction and adoption rates',
-      'FICO Blaze Integration: Enhanced GuidingCare with FICO Blaze, streamlining healthcare decision-making and patient care accuracy',
-      'SRL Logic Development: Crafted and deployed complex SRL decision logic in FICO Blaze, automating essential processes in GuidingCare',
-      'Rule Optimization: Refined FICO Blaze decision rules, increasing GuidingCare system efficiency by optimizing the codebase',
+      'Designed a robust patient engagement platform, enabling seamless data exchange for patients and care providers by utilizing Spring Boot and Azure services to architect a scalable API framework, integrating Oracle database, engaging 500+ users.',
+      'Streamlined health insurance claims processing, leveraging multithreading techniques like thread pooling and synchronized access for concurrent claim processing reducing processing time by 40%, processing 300+ claims per day seamlessly.',
+      'Developed Java-based micro-service for population health module, which helps care teams drive outcomes for target populations by providing workflow automation and care coordination, enabling 25% faster workflows within Guiding Care.'
     ]
   },
 ];

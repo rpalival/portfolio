@@ -25,11 +25,13 @@ import java from "./tech/java.png";
 import postgresql from "./tech/postgresql.png";
 
 import healthedge from "./company/healthedge.png";
+import keelworks from "./company/keelworks.png";
+import HAL from "./company/HAL.png";
 
 import rotateicon from "./rotateicon.svg";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
-import project3 from "./project3.jpg";
+import project3 from "./project3.png";
 
 export {
   project1,
@@ -43,6 +45,8 @@ export {
   java,
   postgresql,
   healthedge,
+  keelworks,
+  HAL,
   backend,
   creator,
   mobile,

@@ -10,7 +10,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
-  const { setCursorVariant, setIsHovering } = useContext(MouseTrailContext);
+//   const { setCursorVariant, setIsHovering } = useContext(MouseTrailContext);
   let timeoutId = null;
 
   useEffect(() => {
@@ -59,22 +59,34 @@ const About = () => {
           className='mt-12 text-white text-[28px] max-w-6xl leading-[60px] font-normal split-word'
           onMouseEnter={() => {
             clearTimeout(timeoutId);
-            setCursorVariant("large");
-            setIsHovering(true);
+            // setCursorVariant("large");
+            // setIsHovering(true);
           }}
           onMouseLeave={() => {
             timeoutId = setTimeout(() => {
-              setCursorVariant("default");
-              setIsHovering(false);
+            //   setCursorVariant("default");
+            //   setIsHovering(false);
             }, 150); // Add this line
           }}
         >
-          <p
-          >
-            "Hi, I'm Raj Palival, a graduate student based in New Jersey pursuing MS in Software Engineering at Stevens Institute of Technology, with an expected graduation in May 2024. Previously, I worked as a software developer at HealthEdge, focusing on creating business rules for guiding care.
-            Driven by a fervor for continuous learning, I am dedicated to exploring new software stacks. Beyond academia and the professional realm, I am an enthusiast of chess, constantly adapting my strategy to overcome new challenges.
-            My overarching goal is to simplify technology for everyday users, facilitating seamless integration and empowering individuals. With a commitment to making technology accessible, I aim to contribute to a future where adapting to new tech is effortless."
-          </p>
+            <h2>Full Stack Developer</h2>
+            <p>
+            4+ years in software development, MS in Software Engineering. Specialized in building scalable, secure systems that enhance operations and user experience.
+            </p>
+            <p>
+            <strong>Key Experiences:</strong>
+            <ul>
+            <li>KeelWorks Foundation: Developed Node.js server for volunteer management platform (500+ users)</li>
+            <li>HealthEdge Software, Inc.: Created Spring Boot microservices for patient claims processing</li>
+            <li>Hindustan Aeronautics Limited: Engineered data analysis for airfoil blade machining</li>
+            </ul>
+            </p>
+            <p>
+            <strong>Tech Stack:</strong> JavaScript, TypeScript, React, Angular, Java, Spring Boot, AWS
+            </p>
+            <p>
+            Turning caffeine into code since 2019. Let's build something great together.
+            </p>
         </motion.div>
       </div>
     </div>

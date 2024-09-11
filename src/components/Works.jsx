@@ -127,9 +127,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-10 text-justify text-white text-[22px] max-w-7xl leading-[35px]'
         >
-        I've curated below a selection of my academic projects, my very own digital offsprings
-        demonstrating my knack for grasping requirements, solving complex problems, and
-        juggling various tech tools. Attached with github repository links, click on the github icon
+        I've curated below a selection of my top 3 projects, my very own digital offsprings
+        demonstrating my knack for grasping requirements, and
+        juggling various technology stacks and libraries. Attached with github repository links, click on the github icon
         for a sneak peek into my academic journey and tech escapades. Dive into my world of digital adventures. 🚀👨‍💻🌟
         </motion.p>
       </div>

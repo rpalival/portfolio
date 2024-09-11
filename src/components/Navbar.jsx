@@ -133,7 +133,7 @@ const Navbar = () => {
           MozTransition: 'transform 0.03s ease-in-out',
           transition: 'transform 0.03s ease-in-out'
         }}
-        className="px-4 py-1 border border-white border-opacity-50 rounded-full ml-6 md:ml-16 mr-4 md:mr-16"><span>ALMA MATER PROJECTS</span></Link>
+        className="px-4 py-1 border border-white border-opacity-50 rounded-full ml-6 md:ml-16 mr-4 md:mr-16"><span>PROJECTS</span></Link>
 
         <Link to="/"
         onClick={(event) => {
@@ -182,10 +182,10 @@ const Navbar = () => {
             }
           }>
           <span className="px-1 relative top-100 w-full h-full bg-transparent text-white transition-all duration-100 ease-in-out transform translate-y-0">
-            AVAILABLE FOR INTERNSHIP
+            AVAILABLE FOR FULL-TIME
           </span>
           <span className="px-4 absolute top-100 w-full h-full bg-white text-black transition-all duration-100 ease-in-out transform translate-y-full">
-          AVAILABLE FOR FULL-TIME
+          AVAILABLE FOR INTERNSHIP
           </span>
         </Link>
       </div>

@@ -16,7 +16,6 @@ Boiler plate created using vite-react.
 
 Quite a diverse tech stack but I am gonna list down all the references and inspirations I have used, covering a wide range of functionalities from 3D graphics to animations, drag-and-drop, and email sending.
 
-## Stars will be appreciated. Thank You!
 ### References & Inspirations:
 1. https://github.com/adrianhajdin/project_3D_developer_portfolio
 2. https://chriskalafatis.com
